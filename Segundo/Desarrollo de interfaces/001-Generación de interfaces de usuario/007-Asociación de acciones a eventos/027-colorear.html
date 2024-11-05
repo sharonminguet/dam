@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <input placeholder="Escribe el número iban..." class="iban">
+        <script>
+            const entrada = document.querySelector("input");
+            entrada.onchange = function(e) {
+                let contenido = this.value;
+                if (contenido.length >= 20 && 
+                    contenido[4] == " " && 
+                    contenido[9] == " " && 
+                    contenido[14] == " " && 
+                    contenido[19] == " ") {
+                    this.style.background = "rgb(200,255,200)"; // Color de fondo correcto
+                } else {
+                    this.style.background = "rgb(255,200,200)"; // Color de fondo incorrecto
+                }
+            }
+        </script>
+    </body>
+</html>

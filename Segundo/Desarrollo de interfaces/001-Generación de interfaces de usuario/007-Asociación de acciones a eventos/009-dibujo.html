@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      body { margin: 0; }
+      canvas { border: 1px solid lavender; }
+    </style>
+  </head>
+  <body>
+    <canvas></canvas>
+    <button id="clearBtn">Borrar Lienzo</button>
+    <script>
+      const lienzo = document.querySelector("canvas");
+      const contexto = lienzo.getContext("2d");
+      
+      // Ajustar el tamaño del lienzo
+      function resizeCanvas() {
+        lienzo.width = window.innerWidth;
+        lienzo.height = window.innerHeight;
+      }
+      resizeCanvas();
+      window.addEventListener('resize', resizeCanvas);
+
+      // Función para obtener un color aleatorio
+      function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+          color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+      }
+
+      // Manejo del evento de movimiento del raton
+      lienzo.onmousemove = function(e) {
+        const x = e.offsetX;
+        const y = e.offsetY;
+        
+        // Dibuja un punto con color aleatorio
+        contexto.fillStyle = getRandomColor();
+        contexto.fillRect(x, y, 5, 5);
+      };
+
+      // Botón para borrar el lienzo
+      document.getElementById('clearBtn').onclick = function() {
+        contexto.clearRect(0, 0, lienzo.width, lienzo.height);
+      };
+    </script>
+  </body>
+</html>

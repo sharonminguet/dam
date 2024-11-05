@@ -1,0 +1,13 @@
+{
+    "nombre": "Jose Luis",
+    "apellidos": "Ramirez Rodriguez",
+    "emails": {
+        "personal": [
+            "joselulu@gmail.com"
+        ],
+        "profesional": [
+            "joseluis@gmail.com",
+            "joseluis2@gmail.com"
+        ]
+    }
+}

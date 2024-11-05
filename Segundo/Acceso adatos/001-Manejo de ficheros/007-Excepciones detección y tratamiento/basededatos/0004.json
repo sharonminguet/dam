@@ -1,0 +1,8 @@
+{
+    "nombre": "Carmen",
+    "apellidos": "Marin",
+    "emails": {
+        "personal": "carmen@correo.com",
+        "profesional": "carmen@empresa.com"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "nombre": "Sarah",
+    "apellidos": "Connor",
+    "emails": {
+        "personal": "sarah@correo.com",
+        "profesional": "sarah@empresa.com"
+    },
+    "pedido": "0026",
+    "producto": "calcetines",
+    "cantidad": "6"
+}

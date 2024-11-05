@@ -1,0 +1,11 @@
+{
+    "nombre": "Paquita",
+    "apellidos": "Torres",
+    "emails": {
+        "personal": "paquita@correo.com",
+        "profesional": "torres@empresa.co"
+    },
+    "pedido": "012",
+    "producto": "chaqueta",
+    "cantidad": "3"
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <body>
+    <input placeholder="Presiona una tecla...">
+    <script>
+      const entrada = document.querySelector("input");
+      entrada.onkeydown = function(e) {
+        if (e.key === "Enter") {
+          console.log("Has presionado Enter");
+        } else if (e.key === "Backspace") {
+          console.log("Has presionado Backspace");
+        } else {
+          console.log(`Has presionado la tecla: ${e.key}`);
+        }
+      };
+    </script>
+  </body>
+</html>
