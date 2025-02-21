@@ -1,1 +1,0 @@
-CREATE USER 'crimson'@'localhost'  IDENTIFIED BY 'crimson';

@@ -1,1 +1,0 @@
-CREATE TABLE `shertech_database`.`usuarios` (`Identificador` INT(10) NOT NULL AUTO_INCREMENT , `usuario` VARCHAR(100) NOT NULL , `contrasena` VARCHAR(100) NOT NULL , `nombre` VARCHAR(100) NOT NULL , `apellidos` VARCHAR(100) NOT NULL , PRIMARY KEY (`Identificador`)) ENGINE = InnoDB;

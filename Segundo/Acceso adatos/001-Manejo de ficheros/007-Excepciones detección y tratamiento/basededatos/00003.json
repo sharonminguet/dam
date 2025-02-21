@@ -1,8 +1,0 @@
-{
-    "nombre": "Francisco",
-    "apellidos": "Zapata",
-    "emails": {
-        "personal": "francisco@correo.com",
-        "profesional": "francisco2@gmail.com"
-    }
-}

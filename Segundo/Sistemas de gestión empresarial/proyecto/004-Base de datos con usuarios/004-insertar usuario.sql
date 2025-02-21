@@ -1,1 +1,0 @@
-INSERT INTO `usuarios` (`Identificador`, `usuario`, `contrasena`, `nombre`, `apellidos`) VALUES (NULL, 'shaminchi', 'shaminchi', 'Sharon', 'Minguet Chirivella');
